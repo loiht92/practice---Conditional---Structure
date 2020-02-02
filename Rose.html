@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tien hoa  ban hang</title>
+</head>
+<body>
+<script>
+    let doanhthu;
+    doanhthu=parseInt(prompt("Nhap doanh thu ban hang"));
+    if (doanhthu<=100){
+        alert("Với mức doanh thu là " +doanhthu+"triệu"+" "+"thì hoa hồng nhận được là:"+doanhthu *0.05+"triệu ")
+        // alert("Hoa hồng bạn nhân được là:" +doanhthu+"*"+"0.05"+"="+" "+doanhthu*0.05+" "+"trieu ");
+    }else if (doanhthu<=300){
+        alert("Với mức doanh thu là " +doanhthu+"triệu"+" "+"thì hoa hồng nhận được là:"+doanhthu *0.1+"triệu ")
+    }else if (doanhthu>300){
+        alert("Với mức doanh thu là " +doanhthu+" "+"triệu"+" "+"thì hoa hồng nhận được là:"+doanhthu *0.2+" "+"triệu ")
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Cuoc Dien Thoai</title>
+</head>
+<body>
+<script>
+    let sophut=parseFloat(prompt("Enter minute"));
+    let a=25000;
+    let b=600;
+    let c=400;
+    let d=200;
+    if (sophut===0){
+        alert("Cuoc dien thoai la: " +a+" "+"dong");
+    }else if (sophut>0 && sophut<=50){
+        alert("Cuoc dien thoai la: " + sophut + "*" + b + "=" + sophut * b+ "dong" );
+    }else if (sophut>50 && sophut <=200){
+        alert("Cuoc dien thoai la: " + sophut + "*" + c + "=" + sophut * c+ "dong");
+    }else if (sophut>200){
+        alert("Cuoc dien thoai la :" + sophut + "*" + d + "=" +sophut * d + "dong ")
+    }
